@@ -1,8 +1,4 @@
-Details in https://github.com/Ambasodor/BatonClientPrivate/commits/Unstable
-
-2021.05.13
--- добавил вход в лодку/догаут/санки по нажатию
-~
+Details in https://github.com/Cediner/ArdClient/commits/Unstable
 2021.05.10
 -- Some merges
 -- Some fixes
@@ -196,9 +192,290 @@ Details in https://github.com/Ambasodor/BatonClientPrivate/commits/Unstable
 20210302 - There's nothing here
 -- Fixed hidden boulders
 -- Now more boulders are boulders
-??????????????????????????????
-??????????????????????????????
-???????? ??????????????????????
-??????????????????????????????
-??????????????????????????????
-??????????????????????????????
+⣯⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⡿⠉⠈⠛⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⣿⣿⡿⠿⠟⠛⠋⠛⡿⣿⣿⣿⣿
+⠇⠀⢀⣀⣀⠀⠀⠀ ⠈⣿⣿⣿⣿⣿⣾⣇⠀⡀⠀⢀⣀⣀⣀⣀⠻⣿⣿⣿⣿⣿
+⠀⠀⠙⠛⠻⣽⠻⢦⣄⠘⢿⣿⣿⣿⣿⣿⠿⠿⠿⠛⠻⣿⣿⣿⣿⣌⡉⠉⢿⣿
+⣶⠀⠐⠆⠀⠀⡾⢦⣬⠓⢼⣿⣿⣿⣿⣿⣶⣦⡀⠄⠀⢀⠠⡤⠁⢀⣀⣿⣿⣿
+⣿⣷⡀⠀⠈⣶⣶⣾⣿⡀⣿⣿⣿⣿⣿⣿⣿⣿⣄⡐⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣶⣶⣿⣿⣿⠋⢁⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡟⢰⣿⣿⣿⣿⣿⣩⣿⡍⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡷⠚⠻⢿⡿⠿⠛⠻⢿⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢻⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠐⠀⠀ ⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠈⢿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠈⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠸⣿⡇⠀⠀⠀⠀⠀⠒⠺⠷⠶⠤⠤⢤⣤⣀⠀⠀⠀ ⠈⢿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⢹⣇⠀⠀⣠⣤⣴⣶⣤⣤⣤⣤⣤⣤⣄⣉⣙⣠⣤⣄⣸⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⢿⡆⠰⣿⣿⣿⣯⣭⣉⣙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⠘⣧⣀⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣸
+~
+
+20210301. - Fix of fixes
+-- Fixes that are not even worth describing (Details in https://github.com/Cediner/ArdClient/commits/Unstable)
+~
+
+20210301 - Random Keyboard Pokes
+-- Changed MarkerList in the map window to modern
+-- Added option to show overlays while object is hidden (Options - Hidden)
+-- Updated 4k character statusbar meters, and the speedometer
+-- Added Eagle Owl to Dander Animal list
+-- Some fixes AreaPicker, Farmer, Resource wrong version, plant sprite, map temp marks (Details in https://github.com/Cediner/ArdClient/commits/Unstable)
+~
+
+20210226 - Hot Fixes
+-- Fixed a bug when the script tries to get information from a not loaded item (FillCheeseTray script)
+~
+
+20210225.
+Hot Fixes
+-- Fixed IllegalMonitorStateException of move queue
+-- In parallel, the display of tracking on the map was fixed (rustroot, dowse)
+-- The farmer now checks the growth stage before harvesting (it happened that the plant grew at the most inopportune moment)
+-- Some fixes AreaPicker (Details in https://github.com/Cediner/ArdClient/commits/Unstable)
+~
+
+20210225
+Some Fixes
+-- Quality transfer for stockpiles
+-- Fixed problems with coordinates on a large map (triangulation, temp marks, and more)
+-- Some fixes AreaPicker, animal hitboxex (goat, lamb), pregant info, out of memory, miner alert, combat actions info. (Details in https://github.com/Cediner/ArdClient/commits/Unstable)
+~
+
+20210221
+Temporary marks (Modification - Map). Fixes.
+~
+
+20210218
+Miscellaneous fixes.
+~
+
+20210214
+Cloth Painter (Modification). Fixes.
+~
+
+20210208
+Hats fix. A lot of fix. AreaPicker improve.
+~
+
+20210204
+Bug Fixes
+~
+
+20210201.1
+Choosing any hat instead of a broken one (Modification - Broken hat replacer)
+~
+
+20210201
+Area Picker (Pre-release universal script)
+~
+
+20210128
+Scripts fix.
+~
+
+20210126
+CraftDBWnd fix. Disables animation - disable smoke (ISmoke).
+~
+
+20210125
+New Craft and Build res image. Fix buddy color, beltwnd null res, helleyehat. Trying to fix pathfinding (fix and improve). Custom marks improve (Modification - Map - Additional marks). Area Picker (WIP - need testing and suggestions).
+~
+
+20210120
+adv fix. Musicbot tracks fix.
+~
+
+20210118
+Destroy area extension. Fix music bot thread. Last merge. Roster fix.
+~
+
+20210115
+Instant Flowermenu option (Modification).
+~
+
+20210111
+Sound manager - text input. Map 8x zoom.
+~
+
+20210106
+Save grid state. Fix color. Fix pointer null.
+~
+
+20210105
+Zoom of map now saving. Fixed alt ping for rus. Tree stage color autumn fix.
+~
+
+20210101
+Simple large map option and draw cave tiles option (Modification - Map). Fix.
+~
+
+20201226
+Yulestar fix. Shield checker (Combat). Sloth features. Map draw options (Modification - Map). Minimize btn fix.
+~
+
+20201223
+Yulestar and charters fix.
+~
+
+20201220
+Fixes. Private message ignore option (Chat). More VMeter. Scripts fix. More Item info more layout.
+~
+
+20201216
+Minimize button. Roster animal name fix. Livestock Manager Wool total and some fix. Fixes. New PBot commands. New mountmeter hide option.
+~
+
+20201214
+Rosters update. Fixes. Movable PartyView. Please check 'Item Overlay' in options.
+~
+
+20201213
+Mooncap fix (Sprucecap). Timer fix and improve.
+~
+
+20201211.1
+Fixes. FlowerMenu and map drop fps fix.
+~
+
+20201211
+Fixes. Smoke shed loader. Flowermenu cargo and diggyup fix.
+~
+
+20201209
+Stockpiler beta. Timers.
+~
+
+20201208
+Fix livestock manager. Roster.
+~
+
+20201205
+Hitboxes. Sloth pathfinder doesn't work. Lua/lisp scripts. Funny options. Petal collector. Fixes. Timer fix.
+~
+
+20201201.1
+Fixes.
+~
+
+20201201
+Fixes. Some sloth features.
+~
+
+20201130
+Update. Fixes.
+~
+
+20201128
+Inventory slot numbers. Buff longtip fix. Gob info improved. Double radius fix. Map marks left right clicks.
+~
+
+20201127
+Radiuses now go above the surface. Movable background (CTRL + RMC). Speed sprite (0 invisible). Equipory int*ste. Fix quick slots mouse drag bug.
+~
+
+20201125
+Fixes. Add stump and log type. Movable fight window. Speed sprite. l10n. Now move key is Ctrl+RMC. SHIFT+A improve. Visitor gate Q option. Gob icon fix.
+~
+
+20201123
+Fixes. Music bot (beta). Scripts...
+~
+
+20201119
+Fixes. Beehive status. Of.. client merge last update.
+~
+
+20201117.1
+Character Sheet hd images. Snowfall fix.
+~
+
+20201117
+Equipory fix. Map icons. Snowfall fix. Farmer as FlaxBot(beta). Fix farmer and Stockpile.
+~
+
+20201113
+Snow fall in option. Some fix.
+~
+
+20201111
+Fix pathfinding move gob (missing gob). Place grid option. Cache hash dev option. Gob health color. Quest point distance text. Render water surface video option (?).
+~
+
+20201110.1
+ConcurrentModificationException fix.
+~
+
+20201110
+Ridges on map. Fight UI. Resource small fix.
+~
+
+20201109.2
+Map grid and hide icons.
+~
+
+20201109.1
+Map icon scaling fix
+~
+
+20201109
+Title change.
+~
+
+20201108
+Fixed default scripts. Scaling map marks option. Map export/import improved. Fixed clicking on the login list on the login screen when there is a large image for the background. Ridges on map.
+~
+
+20201106
+Fixed StockpileFiller
+~
+
+20201103.2
+Added instant tree scaling
+~
+
+20201103.1
+Added Trumpet Chantrelle as a tree
+~
+
+20201103
+Fixed large images
+~
+
+20201102.1
+Fixed "Timer going off while you're on character select screen"x2
+~
+
+20201102
+Fixed "Timer going off while you're on character select screen"
+~
+
+20201030
+Remove inactive log string
+~
+
+20201029
+Small fix StockpileFiller
+~
+
+20201028a
+Fixed unlink NPE.
+~
+
+20201028
+Multisession master UI fix. Timer now has a sort button. Added option to remove game cursor: "Option-Control-Disable game cursors"
+~
+
+20201024a
+Fix pathfinding incomprehensible thing
+~
+
+20201024
+Added AutoDrink error message.
+~
+
+20201022
+Fixed some bugs. Fixed flowermenu positions for coordinates (0, 0). Now it is screen center. Fixed overlay paginae res. Remove old PBot functions. AutodropList fix. I couldn't check everything, so NullPointerException errors are expected. Please let me know, I'll fix it instantly.
+~
+
+1.00.165
+Dragons lived here.
+~
