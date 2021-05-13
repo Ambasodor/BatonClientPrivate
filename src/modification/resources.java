@@ -27,8 +27,8 @@ import java.util.Map;
 public class resources {
     public static String picturePath = "modification/picture";
 
-    public static boolean defaultUtilsCustomLoginScreenBgBoolean = Utils.getprefb("custom-login-background-bol", false);
-    public static String defaultCustomLoginScreenBg = picturePath + "/loginscr.png";
+    public static boolean defaultUtilsCustomLoginScreenBgBoolean = Utils.getprefb("custom-login-background-bol", true);
+    public static String defaultCustomLoginScreenBg = picturePath + "/BatonClientLogin.png";
     public static String defaultUtilsCustomLoginScreenBg = Utils.getpref("custom-login-background", defaultCustomLoginScreenBg);
 
     public static Tex bgCheck() {
