@@ -5660,7 +5660,7 @@ public class OptWnd extends Window {
             FileOutputStream out = new FileOutputStream(f);
             String strLine;
             int count = 0;
-            while ((count < maxlines) && (strLine = br.readLine()) != null) {
+           while ((count < maxlines) && (strLine = br.readLine()) != null) {
                 txt.append(strLine);
                 out.write((strLine + Config.LINE_SEPARATOR).getBytes());
                 count++;
