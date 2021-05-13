@@ -18,6 +18,7 @@ import java.util.Map;
 import static haven.Action.ACT_HAND_0;
 import static haven.Action.ACT_HAND_1;
 import static haven.Action.ACT_TRAVERSE;
+import static haven.Action.ACT_GOIN;
 import static haven.Action.AGGRO_CLOSEST;
 import static haven.Action.ATTACK;
 import static haven.Action.BELT_PAGEFIVE;
@@ -153,6 +154,7 @@ public class KeyBinder {
         add(KeyEvent.VK_M, ALT, TOGGLE_STATUSOVERLAY);
         add(KeyEvent.VK_Q, 0, HARVEST_FORAGEABLE);
         add(KeyEvent.VK_A, SHIFT, ACT_TRAVERSE);
+        add(KeyEvent.VK_G, SHIFT, ACT_GOIN);
         add(KeyEvent.VK_Z, CTRL, TOGGLE_PATHFINDING);
         add(KeyEvent.VK_S, ALT, TOGGLE_SEARCH);
         add(KeyEvent.VK_O, SHIFT, TOGGLE_OPTIONS);

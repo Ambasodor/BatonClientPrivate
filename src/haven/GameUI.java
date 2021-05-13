@@ -30,6 +30,7 @@ import haven.automation.Discord;
 import haven.automation.ErrorSysMsgCallback;
 import haven.automation.PickForageable;
 import haven.automation.Traverse;
+import haven.automation.GoIn;
 import haven.overlays.OverlayManager;
 import haven.purus.DrinkWater;
 import haven.purus.ItemClickCallback;
@@ -1813,6 +1814,11 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 
     public void traverse() {
         Thread t = new Thread(new Traverse(this), "Traverse");
+        t.start();
+    }
+
+    public void goin() {
+        Thread t = new Thread(new GoIn(this), "GoIn");
         t.start();
     }
 

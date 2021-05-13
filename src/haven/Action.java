@@ -44,6 +44,7 @@ public enum Action {
     TOGGLE_HIDEGOBS(GameUI::toggleHide, "Toggles the hiding of objects on/off"),
     HARVEST_FORAGEABLE(GameUI::harvestForageable, "Harvest nearby forageable"),
     ACT_TRAVERSE(GameUI::traverse, "Use a door/ladder"),
+    ACT_GOIN(GameUI::goin, "Go into boat/spark/dugout"),
     TOGGLE_PATHFINDING(GameUI::togglePathfinding, "Toggles pathfinding on/off"),
     TOGGLE_SEARCH(GameUI::toggleSearch, "Toggles the search menu"),
     AGGRO_CLOSEST(GameUI::aggroClosest, "Aggro closest player"),
