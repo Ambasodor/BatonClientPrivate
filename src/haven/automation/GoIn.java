@@ -33,7 +33,7 @@ public class GoIn implements Runnable {
                             res.name.startsWith("gfx/terobjs/vehicle/spark")))
                     {
                         Coord2d plc = gui.map.player().rc;
-                        if ((vehicle == null || gob.rc.dist(plc) < vehicle.rc.dist(plc)) && !gob.isDead())
+                        if ((vehicle == null || gob.rc.dist(plc) < vehicle.rc.dist(plc)) && vehicle == null)
                             vehicle = gob;
                     }
                 } catch (Loading l) {

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" ?>
 
 <project name="hafen" default="deftgt">
-    <property name="name" value="ArdClient"/>
-    <property name="version" value="2021.05.10"/>
+    <property name="name" value="BatClient"/>
+    <property name="version" value="2021.05.14"/>
 
     <target name="build-env">
         <mkdir dir="build"/>
