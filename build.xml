@@ -2,7 +2,7 @@
 
 <project name="hafen" default="deftgt">
     <property name="name" value="BatClient"/>
-    <property name="version" value="2021.05.14"/>
+    <property name="version" value="2021.05.15"/>
 
     <target name="build-env">
         <mkdir dir="build"/>
